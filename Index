@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UK EMS Rank Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>UK EMS Rank Store</h1>
+    <p>Purchase Special Ranks for Your Emergency Services Roleplay</p>
+  </header>
+
+  <main>
+    <section class="ranks">
+      <div class="rank-card">
+        <h2>HEMS Paramedic</h2>
+        <p>Advanced air ambulance paramedic access</p>
+        <span>£9.99</span>
+        <button onclick="buyRank('HEMS Paramedic', 9.99)">Buy Now</button>
+      </div>
+      <div class="rank-card">
+        <h2>CTSFO Operator</h2>
+        <p>Join elite counter-terror operations unit</p>
+        <span>£14.99</span>
+        <button onclick="buyRank('CTSFO Operator', 14.99)">Buy Now</button>
+      </div>
+      <div class="rank-card">
+        <h2>CID Detective</h2>
+        <p>Gain access to serious crime investigation tools</p>
+        <span>£7.99</span>
+        <button onclick="buyRank('CID Detective', 7.99)">Buy Now</button>
+      </div>
+      <div class="rank-card">
+        <h2>Fire: Heavy Rescue</h2>
+        <p>Access to specialist rescue missions and gear</p>
+        <span>£6.99</span>
+        <button onclick="buyRank('Heavy Rescue', 6.99)">Buy Now</button>
+      </div>
+      <div class="rank-card">
+        <h2>Specialist [FIRE]</h2>
+        <p>Handle hazardous incidents and decon tasks</p>
+        <span>£8.49</span>
+        <button onclick="buyRank('Hazmat Specialist', 8.49)">Buy Now</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 UK EMS Roleplay. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
